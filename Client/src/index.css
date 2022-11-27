@@ -1,0 +1,20 @@
+:root {
+  --white: #dddede;
+  --black: #232122;
+  --green: #a5c05b;
+  --blue: #7ba4a8;
+}
+
+html::-webkit-scrollbar {
+  width: 22px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--black);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #4d484a;
+  border-radius: 45px;
+}
+
